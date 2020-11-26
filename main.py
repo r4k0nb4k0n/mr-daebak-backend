@@ -10,6 +10,8 @@ from pydantic import BaseModel
 from Database import Database
 from User import User
 
+import uvicorn
+
 SECRET_KEY = "09d25e094faa6ca2556c818166b7a9563b93f7099f6f0f4caa6cf63b88e8d3e7"
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 30
@@ -239,3 +241,7 @@ def deleteUser(user_id, current_user: UserPydantic = Depends(get_current_user)):
     return {
         "success": True
     }
+
+
+if __name__ == '__main__':
+    uvicorn.run('main:app', host='0.0.0.0', port=8080, log_level="info")
