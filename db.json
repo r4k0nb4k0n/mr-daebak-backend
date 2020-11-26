@@ -1,0 +1,40 @@
+{
+	"user": [
+		{
+			"id": 0,
+			"email": "r4k4@protonmail.com",
+			"hashedPassword": "$2b$12$REWpI9L4TMTh7MXNW4fs2eNUekRdaImq0rWwLAvDbnXERZg4PrFB.",
+			"address": "\uc11c\uc6b8\uc2dc\ub9bd\ub300",
+			"contact": "0123456789",
+			"type": "customer",
+			"important": false
+		},
+		{
+			"id": 1,
+			"email": "cook@mrdb.com",
+			"hashedPassword": "$2b$12$5xw204qEEZeCCN6hpRfWp.pD6pzQfp7xHgLZoHtaQxICv9pU1dtxO",
+			"address": "\uc11c\uc6b8\uc2dc\ub9bd\ub300",
+			"contact": "01010101010",
+			"type": "cook",
+			"important": false
+		},
+		{
+			"id": 2,
+			"email": "rider@mrdb.com",
+			"hashedPassword": "$2b$12$wxTeEccStIDK/mOBhIah.u3.i3RiFIuKO/k2j3NswuDAZvj8OED1q",
+			"address": "\uc11c\uc6b8\uc2dc\ub9bd\ub300",
+			"contact": "101010101010",
+			"type": "rider",
+			"important": false
+		},
+		{
+			"id": 3,
+			"email": "customer@mrdb.com",
+			"hashedPassword": "$2b$12$9oBt9N4Li3M/jHDEf1.83uvw6Y.bSqHOAFhr1MV2h0ebdAMv4.6Aa",
+			"address": "\uc11c\uc6b8\uc2dc\ub9bd\ub300\ud559\uad50 \uc815\ubcf4\uae30\uc220\uad00 \uc9c0\ud558 1\uce35",
+			"contact": "01012345678",
+			"type": "customer",
+			"important": false
+		}
+	]
+}
