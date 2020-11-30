@@ -10,3 +10,6 @@ class Database:
     def commit(self):
         with open(self.filename, 'w', encoding='utf-8') as f:
             json.dump(self.table, f, indent='\t')
+
+
+db = Database("db.json")
