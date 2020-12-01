@@ -28,6 +28,66 @@
 			"important": false
 		}
 	],
+	"order": [
+		{
+			"id": 0,
+			"customer_id": 0,
+			"cook_id": 1,
+			"rider_id": 2,
+			"date_start": "2020. 12. 1. \uc624\ud6c4 11:20:33",
+			"date_end": "2020. 12. 1. \uc624\ud6c4 11:21:35",
+			"status": "finished",
+			"address": "\uc11c\uc6b8\uc2dc\ub9bd\ub300\ud559\uad50 \uc815\ubcf4\uae30\uc220\uad00 1\uce35 \uac15\uc758\uc2e4",
+			"contact": "010-1234-5678",
+			"credit_card_number": "123123123",
+			"order_details": [
+				{
+					"dinnerMenu": {
+						"name": "\ud504\ub80c\uce58 \ub514\ub108",
+						"items": [
+							{
+								"id": 17,
+								"amount": 2
+							},
+							{
+								"id": 18,
+								"amount": 1
+							},
+							{
+								"id": 15,
+								"amount": 1
+							},
+							{
+								"id": 16,
+								"amount": 1
+							}
+						]
+					},
+					"dinnerStyle": {
+						"name": "\ub51c\ub7ed\uc2a4 \ub514\ub108",
+						"items": [
+							{
+								"id": 1,
+								"amount": 1
+							},
+							{
+								"id": 10,
+								"amount": 1
+							},
+							{
+								"id": 4,
+								"amount": 1
+							},
+							{
+								"id": 9,
+								"amount": 1
+							}
+						]
+					}
+				}
+			]
+		}
+	],
 	"item": [
 		{
 			"id": 0,
